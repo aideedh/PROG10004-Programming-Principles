@@ -1,0 +1,11 @@
+
+# convert seconds to min 
+
+seconds = eval(input("Enter the amount of seconds"))
+
+minutes = seconds // 60    # this devides the number with no decimals (no remainder)
+remainder = seconds % 60   # this is to store the remainder thats not kept above 
+
+print("The converted amount of minutes is", minutes, "min", "while the remaining seconds left over is", remainder, "sec")
+
+# Refrence - https://www.freecodecamp.org/news/what-does-double-slash-mean-in-python/
