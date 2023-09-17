@@ -1,0 +1,4 @@
+Celsius = int(input(" What is the tempature in Celsius right now? "))
+Fahrenheit = (9/5) * Celsius + 32
+
+print(Celsius, "Converted into Fahrenheit is ", Fahrenheit)
