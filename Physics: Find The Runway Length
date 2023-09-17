@@ -1,0 +1,6 @@
+acceleration = int(input("Please Input, Acceleration in meters/second (m/s)"))
+speed = int(input("Please Input, Speed in meters/second (m/s)"))
+
+lenght = (speed**2)/(2*acceleration)
+
+print("The minimun runway lenght needed would be", lenght, "meters")
