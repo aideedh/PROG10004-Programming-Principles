@@ -1,0 +1,6 @@
+miles = 14*1.6   #to convert kilo to miles
+hours = 45.5/60  #to get speed in hours 
+
+avg_speed = miles / hours  # formula for avg speed
+
+print("Avg speed in miles is ", avg_speed)
