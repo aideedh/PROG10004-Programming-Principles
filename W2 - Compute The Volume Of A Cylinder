@@ -1,0 +1,6 @@
+radius, lenght = eval(input("Please enter the radius and lenght sperated by a comma "))
+
+area = radius * radius * 3.14 
+volume = area * lenght 
+
+print("The area is ", area, "while the volume is ", volume)
