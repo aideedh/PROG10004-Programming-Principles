@@ -1,0 +1,9 @@
+pound = eval(input("Please write your weight in Pounds"))
+inch = eval(input("Please write your height in inches"))
+
+kilo = 0.45359237 * pound   
+meter  = 0.0254  * inch
+
+Bmi = kilo / meter**2
+
+print("Your Bmi is", Bmi)
