@@ -1,0 +1,34 @@
+'''
+
+intial = 932 
+
+num1 = intial % 10
+left = intial // 10
+
+num2 = left % 10
+left = left // 10
+
+num3 = left % 10
+
+print (num1 + num2 + num3)
+
+
+'''
+
+start = eval(input("Write a 4 diget integer")) 
+
+num1 = start % 10                                # extract the first digit         
+remaining = start // 10   # Account for the remainder and make a variable
+ 
+num2 = remaining % 10              # the remainder now holds the previous number so " % "  from it to get the next digit
+remaining = remaining // 10              # At this point " // "  from the remainder to account for the other digets besides the extracted digets 
+
+num3 = remaining % 10                    # Repeat this in all steps 
+remaining = remaining // 10 
+
+num4 = remaining % 10               # Final step has no remainder digets to account for so this is the end 
+
+
+print (num1, num2, num3, num4)           # checks for if the program ran correctly 
+print (num1+num2+num3+num4)        # Final solution to the problem 
+
