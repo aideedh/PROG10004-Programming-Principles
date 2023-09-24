@@ -1,0 +1,9 @@
+# write an if statement that assigns 1 to x if y is greater than 0 
+
+x = 0
+y = int(input("Please wrrite a number "))
+
+if y > 0:
+    x = 1
+
+print("Your values are : x, y ",  x, y)
