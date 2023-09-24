@@ -18,7 +18,7 @@ side3 =  ((x1-x2)**2 + (y1-y2)**2)**0.5
     # area = s(s - side1)(s - side2)(s-side3)
 
 s = (side1 + side2 + side3) / 2
-area = (s-side1)(s-side2)(s-side3)
+area = (s-side1)*(s-side2)(s-side3)
 
 print("The area of the triangle with the points you put in")
 print((x1, y1), (x2, y2), (x3, y3))
