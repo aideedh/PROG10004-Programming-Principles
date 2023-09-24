@@ -1,0 +1,9 @@
+#  area of a circle 
+
+radius = eval(input("Please write the radius"))
+
+if radius <= 0:
+    print("Error: Please use a number greater than 0")
+else:
+    area = radius * radius * 3.14
+    print("The area of your circle is : ", area)
